@@ -1,0 +1,75 @@
+<!-- 1. А) Да се направи форма која што ќе има изглед како на сликата погоре. 
+Полињата за внесување податоци за име, емаил и телефонски број да бидат 
+задолжителни. Исто така, при клик на било која од лабелите,
+Да се овозможи фокус на самото поле за внесување. 
+Пр. Доколку корисникот кликне на "Email" полето за емаил треба да биде 
+фокусирано така што корисникот веднаш ќе може да пишува во него.
+
+Б) Да се направи уште една едноставна форма која што ќе има наслов "Are 
+you sure you want to proceed" и под него, да се дадат две опции: "Yes" и 
+"No". Корисникот треба може да одбере само една опција.
+
+
+2. Да се направи веб страна за компанија или организација која што ќе се 
+состои од 4 страни: 
+Home, About Us, Contact и Projects. Секоја страница треба да има 
+навигациско мени кое што ќе му овозможи на корисникот да навигира помеѓу 
+страниците. 
+
+- страната Home потребно е да има една голема слика, еден наслов и три 
+параграфи. Во параграфите да се употребат и таговите: <strong>, <i> и 
+<mark>
+
+- страната About Us потребно е да се состои од еден наслов означен со 
+тагот <h3> каде што ќе стои текстот 'About Us". Под насловот треба да стои 
+краток опис за самата компанија и една листа од проекти кои што 
+компанијата ги има завршено.
+
+- страната Contact потребно е да има една форма за контакт. Формата треба 
+да се состои од инпут полиња за Name, Surname, Phone Number, Email, 
+Subject и едно поле за оставање на порака. Сите полиња треба да бидат 
+задолжителни освен Subject. Под овие полиња, формата содржи и еден инпут 
+checkbox со текст "I have read, and accept the Privacy Policy." и 'Send" 
+koпче. Елементите во формата треба да бидат позиционирани едни под други.
+
+- страната Projects потребно е да има еден наслов кој ќе гласи: "Our 
+Projects" и шест слики од самите проекти со име на проектот и краток опис 
+за истиот. Сликите треба да имаат ширина од 350 пиксели и да бидат 
+поставени во два реда, односно по 3 слики во еден ред-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h4>Navigacisko meni</h4><br />
+                <li><a href="/Home.html" target="_self">Home</a></li> <br />
+                <li><a href="/About Us.html" target="_self">About Us</a></li> <br />
+                <li><a href="/Contact.html" target="_self">Contact</a></li> <br />
+                <li><a href="/Projects.html" target="_self">Projects</a></li> <br />
+
+            </ul>
+        </nav>
+    </header>
+<br />
+<br />
+<img src="https://i0.wp.com/www.discoveringmacedonia.com/wp-content/uploads/2014/06/visit-skopje-8.jpg?resize=1024%2C498&ssl=1" alt="image of Vodno"/>
+<br />
+
+<H1>NASLOV</H1>
+<br />
+<p>Lorem ipsum dolor sit amet. <strong>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</strong> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+<br />
+<p><i>Integer tincidunt.</i> Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+<br />
+<p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. <mark>Nam eget dui.</mark> Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+</body>
+
+</html>
