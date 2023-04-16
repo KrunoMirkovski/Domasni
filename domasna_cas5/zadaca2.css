@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(226, 115, 42);
+}
+.register-container{
+    width: 340px;
+    height: 380px;
+    text-align: center;
+    background-color: rgb(250, 249, 247);
+    margin: 0 auto;
+    padding: 10px 20px 10px 20px;
+
+}
+#yellow{
+    color: rgb(225, 225, 18);
+
+}
+
+.submit-btn{
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    color:whitesmoke;
+    font-size: 18px;
+    background-color: rgb(221, 47, 47);
+}

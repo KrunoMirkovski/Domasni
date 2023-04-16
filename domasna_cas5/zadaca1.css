@@ -1,0 +1,19 @@
+.pravoagolnik{
+    width: 345px;
+    height: 75px;
+    background-color: lightblue;
+    border: 12px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    /*box-sizing: content-box; */
+    /* Total width: 345px + (2 * 20px) + (2 * 12px) = 377px
+    /* Total height: 75px + (2 * 0px) + (2 * 12px) = 99px */
+
+    box-sizing: border-box;
+    /* 
+    Total width: 345px
+    Total height: 75px
+    Content box width: 345px - (2 * 20px) - (2 * 12px) = 313px
+    Content box height: 75px - (2 * 0px) - (2 * 12px) = 51px*/
+}
