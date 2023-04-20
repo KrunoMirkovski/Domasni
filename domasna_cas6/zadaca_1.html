@@ -1,0 +1,72 @@
+<!--1. Да се направат три картички:
+
+- Првата картичка да содржи слика, наслов, опис и едно копче. Елементите 
+да бидат порамнети од левата страна. Висината на картичката нека изнесува 
+450 пиксели а ширината 250.
+
+- Втората картичка да содржи позадинска слика, наслов и краток опис. 
+Ширината на оваа картичка треба да изнесува 300 пиксели додека пак 
+висината да се постави на 500 пиксели. Насловот потребно е да има големина 
+од 27 пиксели а описот да изнесува 18 пиксели. Бојата на двата елементи да 
+биде бела и елементите да бидат позиционирани во средина.
+
+- Третата картичка потребно е да има ширина од 600 пиксели и висина од 
+200. Картичката нека биде поделена на две секции, лево и десно. Левата 
+страна нека изнесува 200 пиксели и да се постави слика која што ќе биде 
+кружна, додека пак десната страна потребно е да има опис, два линка и 
+копче кое што ќе ја менува позадинската боја при hover.
+
+Големината и стилот на оние елементи за кои не е даден конкретен опис го 
+одредувате вие.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/zadaca_1.css"/>
+    <title>Zadaca_1</title>
+</head>
+<body>
+   <!--1va karticka-->
+   <div class="card">
+        <div class="card-top">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPKSe_z6cgW-yTyEBOILtedGE1hyCFBHSKg&usqp=CAU" alt="Profile picture"/>
+        </div>
+        <div class="card-bottom">
+            <div class="title">
+                <h1>Naslov</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+
+            <div>
+                <button class="btn">Button</button>
+            </div>
+        </div>
+    </div>
+
+
+<!--2ra carticka-->
+<div class="background-card">
+    <h1>Naslov</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+
+   <!--3ta karticka-->
+<div class="split-card">
+
+    <div class="left-side">
+        <img class="round-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM_n6ErNu-4yic81czJtpp9YIe-uAPhGBGqwLtr_Roe880DAeiKe4BX9SHUYtymkxlMHI&usqp=CAU" alt="profile picture"/>
+    </div>
+
+    <div class="right-side">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <button class="btn2">Button</button>
+    </div>
+</div>
+
+</body>
+</html>
