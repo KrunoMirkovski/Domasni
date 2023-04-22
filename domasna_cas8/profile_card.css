@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(143, 58, 235), rgb(236, 105, 105));
+}
+.card-container{
+    width: 600px;
+    height: 500px;
+    background-color: #fff7ed;
+    margin: 100px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-round{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -58px;
+    bottom: 340px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid rgb(163, 34, 244);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKAMLUqZAY3dQ5kEds0dFTfFsx5cYHQS6Fg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-content{
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgb(145, 33, 201);
+    font-size: 25px;
+}
+.statistics{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    margin: 0 auto;
+    top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.statistic-data{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+b{
+    font-size: 20px;
+}
+
+.social-media{
+    width: 600px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    top: 250px;
+}
+
+.img-round-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: o auto;
+    background-size:contain;
+    background-position:center;
+    position: relative;
+    box-shadow: 2px 2px 3px 2px rgb(121, 121, 252);
+}
+img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 2px rgb(121, 121, 252);
+}
+
+.button-wrapper{
+    width: 560px;
+    height: 50px;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    margin: o auto;
+    top: 180px;
+    align-content: center;
+    padding: 20px;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    border: 3px sandybrown;
+    border-radius:12px;
+}
+.message{
+    background-color: rgb(69, 69, 237);
+    color: azure;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px 3px rgb(95, 95, 243);
+}
+.follow{
+    background-color: rgb(244, 96, 42);
+    color: azure;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px 3px rgb(243, 162, 95);
+}
